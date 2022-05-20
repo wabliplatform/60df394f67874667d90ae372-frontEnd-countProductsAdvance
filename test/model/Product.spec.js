@@ -66,6 +66,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property pCount (base name: "pCount")', function() {
+      // uncomment below and update the code to test the property pCount
+      //var instance = new TempApi.Product();
+      //expect(instance).to.be();
+    });
+
     it('should have the property pSupplier (base name: "pSupplier")', function() {
       // uncomment below and update the code to test the property pSupplier
       //var instance = new TempApi.Product();
@@ -74,12 +80,6 @@
 
     it('should have the property pTitle (base name: "pTitle")', function() {
       // uncomment below and update the code to test the property pTitle
-      //var instance = new TempApi.Product();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property pCount (base name: "pCount")', function() {
-      // uncomment below and update the code to test the property pCount
       //var instance = new TempApi.Product();
       //expect(instance).to.be();
     });

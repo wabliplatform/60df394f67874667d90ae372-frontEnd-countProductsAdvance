@@ -25,13 +25,13 @@ class Product {
      * Constructs a new <code>Product</code>.
      * @alias module:model/Product
      * @param pImage {module:model/ProductPImage} 
+     * @param pCount {Number} 
      * @param pSupplier {module:model/Supplier} 
      * @param pTitle {String} 
-     * @param pCount {Number} 
      */
-    constructor(pImage, pSupplier, pTitle, pCount) { 
+    constructor(pImage, pCount, pSupplier, pTitle) { 
         
-        Product.initialize(this, pImage, pSupplier, pTitle, pCount);
+        Product.initialize(this, pImage, pCount, pSupplier, pTitle);
     }
 
     /**
@@ -39,11 +39,11 @@ class Product {
      * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
      * Only for internal use.
      */
-    static initialize(obj, pImage, pSupplier, pTitle, pCount) { 
+    static initialize(obj, pImage, pCount, pSupplier, pTitle) { 
         obj['pImage'] = pImage;
+        obj['pCount'] = pCount;
         obj['pSupplier'] = pSupplier;
         obj['pTitle'] = pTitle;
-        obj['pCount'] = pCount;
     }
 
     /**
@@ -63,14 +63,14 @@ class Product {
             if (data.hasOwnProperty('pImage')) {
                 obj['pImage'] = ProductPImage.constructFromObject(data['pImage']);
             }
+            if (data.hasOwnProperty('pCount')) {
+                obj['pCount'] = ApiClient.convertToType(data['pCount'], 'Number');
+            }
             if (data.hasOwnProperty('pSupplier')) {
                 obj['pSupplier'] = ApiClient.convertToType(data['pSupplier'], Supplier);
             }
             if (data.hasOwnProperty('pTitle')) {
                 obj['pTitle'] = ApiClient.convertToType(data['pTitle'], 'String');
-            }
-            if (data.hasOwnProperty('pCount')) {
-                obj['pCount'] = ApiClient.convertToType(data['pCount'], 'Number');
             }
         }
         return obj;
@@ -90,6 +90,11 @@ Product.prototype['_id'] = undefined;
 Product.prototype['pImage'] = undefined;
 
 /**
+ * @member {Number} pCount
+ */
+Product.prototype['pCount'] = undefined;
+
+/**
  * @member {module:model/Supplier} pSupplier
  */
 Product.prototype['pSupplier'] = undefined;
@@ -98,11 +103,6 @@ Product.prototype['pSupplier'] = undefined;
  * @member {String} pTitle
  */
 Product.prototype['pTitle'] = undefined;
-
-/**
- * @member {Number} pCount
- */
-Product.prototype['pCount'] = undefined;
 
 
 

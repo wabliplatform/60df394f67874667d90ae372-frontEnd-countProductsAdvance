@@ -2,7 +2,9 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
     event.preventDefault();
     { window.document.location = 'https://wabli.netlify.app/';}};document.getElementById('izgi1').onclick = (event) => {
     event.preventDefault();
-    {  location.href= '/Count' ;}};document.getElementById('i16wk').onclick = (event) => {
+    {  location.href= '/Count' ;}};document.getElementById('ivplp8').onclick = (event) => {
+    event.preventDefault();
+    {  location.href= '/Supplier' ;}};document.getElementById('i16wk').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -39,7 +41,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ihf5uq').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ij9r43').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -50,7 +52,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("ihf5uq")) === true &&
+              .contains(document.getElementById("ij9r43")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -58,7 +60,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('idyi7e').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ilgtjj').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -69,14 +71,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("idyi7e")) === true &&
+            .contains(document.getElementById("ilgtjj")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('if6wqm').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('i2q9gs').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -87,7 +89,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("if6wqm")) === true &&
+              .contains(document.getElementById("i2q9gs")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -95,7 +97,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ix6jqw').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i59jwr').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -106,14 +108,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("ix6jqw")) === true &&
+            .contains(document.getElementById("i59jwr")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('iqgo3').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('iu8l7x').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -124,7 +126,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("iqgo3")) === true &&
+              .contains(document.getElementById("iu8l7x")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -132,7 +134,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('irmmx').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('izuxet').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -143,14 +145,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("irmmx")) === true &&
+            .contains(document.getElementById("izuxet")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ihyvs').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ilfvu6').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -161,7 +163,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("ihyvs")) === true &&
+              .contains(document.getElementById("ilfvu6")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -169,7 +171,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ixb8x').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i6g99z').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -180,14 +182,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("ixb8x")) === true &&
+            .contains(document.getElementById("i6g99z")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('i7ctgj').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('idy3sq').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -198,7 +200,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("i7ctgj")) === true &&
+              .contains(document.getElementById("idy3sq")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -206,7 +208,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('iprlq9').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i0xr6a').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -217,14 +219,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("iprlq9")) === true &&
+            .contains(document.getElementById("i0xr6a")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ivf7wk').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ilnraf').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -235,7 +237,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("ivf7wk")) === true &&
+              .contains(document.getElementById("ilnraf")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -243,7 +245,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('is61c3').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ileug9').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -254,14 +256,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("is61c3")) === true &&
+            .contains(document.getElementById("ileug9")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('i5k28l').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('iicxq').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -272,7 +274,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("i5k28l")) === true &&
+              .contains(document.getElementById("iicxq")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -280,7 +282,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('itrsaf').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ic6ql').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -291,7 +293,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("itrsaf")) === true &&
+            .contains(document.getElementById("ic6ql")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
@@ -315,6 +317,16 @@ else if(subDataElements[i].getAttribute('annotationname') === 'pImage' && data[d
   subDataElements[i].name = data[data.length -i -1].pImage.name;
 }
  } catch (e) { console.log(e) };try { 
+      const insideSubDataElement = subDataElements[i].querySelector("[annotationname = 'pCount']");
+      if(insideSubDataElement !== null){
+        insideSubDataElement.textContent = data[data.length -i -1].pCount;
+        
+      }
+      else if(subDataElements[i].getAttribute('annotationname') === 'pCount'){
+        subDataElements[i].textContent = data[data.length -i -1].pCount;
+        
+      }
+     } catch (e) { console.log(e) };try { 
         
         const insideSubdocument = subDataElements[i].querySelector("[annotationname = 'pSupplier']");
         if (insideSubdocument !==null) {
