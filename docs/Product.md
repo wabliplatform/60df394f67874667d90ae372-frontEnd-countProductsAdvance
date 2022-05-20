@@ -6,8 +6,8 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **String** |  | [optional] 
 **pImage** | [**ProductPImage**](ProductPImage.md) |  | 
+**pTitle** | **String** |  | 
 **pCount** | **Number** |  | 
 **pSupplier** | [**Supplier**](Supplier.md) |  | 
-**pTitle** | **String** |  | 
 
 

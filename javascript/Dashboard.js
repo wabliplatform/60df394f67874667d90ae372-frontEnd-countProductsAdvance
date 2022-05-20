@@ -41,7 +41,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ij9r43').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ip3d7k').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -52,7 +52,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("ij9r43")) === true &&
+              .contains(document.getElementById("ip3d7k")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -60,7 +60,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ilgtjj').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ik7yns').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -71,14 +71,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("ilgtjj")) === true &&
+            .contains(document.getElementById("ik7yns")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('i2q9gs').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('i8zgv5').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -89,7 +89,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("i2q9gs")) === true &&
+              .contains(document.getElementById("i8zgv5")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -97,7 +97,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i59jwr').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ivicxr').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -108,14 +108,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("i59jwr")) === true &&
+            .contains(document.getElementById("ivicxr")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('iu8l7x').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('i2d77g').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -126,7 +126,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("iu8l7x")) === true &&
+              .contains(document.getElementById("i2d77g")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -134,7 +134,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('izuxet').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('iimxqj').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -145,14 +145,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("izuxet")) === true &&
+            .contains(document.getElementById("iimxqj")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ilfvu6').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('iz20tr').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -163,7 +163,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("ilfvu6")) === true &&
+              .contains(document.getElementById("iz20tr")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -171,7 +171,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i6g99z').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('iangsa').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -182,14 +182,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("i6g99z")) === true &&
+            .contains(document.getElementById("iangsa")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('idy3sq').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('i5vi5e').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -200,7 +200,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("idy3sq")) === true &&
+              .contains(document.getElementById("i5vi5e")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -208,7 +208,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i0xr6a').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i1kldg').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -219,14 +219,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("i0xr6a")) === true &&
+            .contains(document.getElementById("i1kldg")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('ilnraf').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('io0siw').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -237,7 +237,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("ilnraf")) === true &&
+              .contains(document.getElementById("io0siw")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -245,7 +245,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ileug9').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('irtk3g').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -256,14 +256,14 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("ileug9")) === true &&
+            .contains(document.getElementById("irtk3g")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
           parentId = key;
         }
       });
-     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('iicxq').onclick = (event) => {
+     location.href= '/CountUpdate/' + transitionId;}};document.getElementById('iraa4').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -274,7 +274,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           if (
             document
               .getElementById(key)
-              .contains(document.getElementById("iicxq")) === true &&
+              .contains(document.getElementById("iraa4")) === true &&
               document.getElementById(key).contains(document.getElementById(parentId)) === false
           ) {
             productId = value._id;
@@ -282,7 +282,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ic6ql').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ifofl').onclick = (event) => {
     event.preventDefault();
     { 
       let transitionId = window.location.href.split('/').at(-1);
@@ -293,7 +293,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
         if (
           document
             .getElementById(key)
-            .contains(document.getElementById("ic6ql")) === true &&
+            .contains(document.getElementById("ifofl")) === true &&
             document.getElementById(key).contains(document.getElementById(parentId)) === false
         ) {
           transitionId = value._id;
@@ -317,6 +317,16 @@ else if(subDataElements[i].getAttribute('annotationname') === 'pImage' && data[d
   subDataElements[i].name = data[data.length -i -1].pImage.name;
 }
  } catch (e) { console.log(e) };try { 
+      const insideSubDataElement = subDataElements[i].querySelector("[annotationname = 'pTitle']");
+      if(insideSubDataElement !== null){
+        insideSubDataElement.textContent = data[data.length -i -1].pTitle;
+        
+      }
+      else if(subDataElements[i].getAttribute('annotationname') === 'pTitle'){
+        subDataElements[i].textContent = data[data.length -i -1].pTitle;
+        
+      }
+     } catch (e) { console.log(e) };try { 
       const insideSubDataElement = subDataElements[i].querySelector("[annotationname = 'pCount']");
       if(insideSubDataElement !== null){
         insideSubDataElement.textContent = data[data.length -i -1].pCount;
