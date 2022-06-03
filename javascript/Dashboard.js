@@ -32,6 +32,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
       const newMap = new Map(JSON.parse(storedData));
       newMap.forEach((value, key) => {
         if (
+          document.getElementById(key) !== null &&
           document
             .getElementById(key)
             .contains(document.getElementById("iknyzh")) === true &&
@@ -69,6 +70,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
       const newMap = new Map(JSON.parse(storedData));
       newMap.forEach((value, key) => {
         if (
+          document.getElementById(key) !== null &&
           document
             .getElementById(key)
             .contains(document.getElementById("ik7yns")) === true &&
@@ -106,6 +108,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
       const newMap = new Map(JSON.parse(storedData));
       newMap.forEach((value, key) => {
         if (
+          document.getElementById(key) !== null &&
           document
             .getElementById(key)
             .contains(document.getElementById("ivicxr")) === true &&
@@ -143,6 +146,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
       const newMap = new Map(JSON.parse(storedData));
       newMap.forEach((value, key) => {
         if (
+          document.getElementById(key) !== null &&
           document
             .getElementById(key)
             .contains(document.getElementById("iimxqj")) === true &&
@@ -180,6 +184,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
       const newMap = new Map(JSON.parse(storedData));
       newMap.forEach((value, key) => {
         if (
+          document.getElementById(key) !== null &&
           document
             .getElementById(key)
             .contains(document.getElementById("iangsa")) === true &&
@@ -217,6 +222,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
       const newMap = new Map(JSON.parse(storedData));
       newMap.forEach((value, key) => {
         if (
+          document.getElementById(key) !== null &&
           document
             .getElementById(key)
             .contains(document.getElementById("i1kldg")) === true &&
@@ -254,6 +260,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
       const newMap = new Map(JSON.parse(storedData));
       newMap.forEach((value, key) => {
         if (
+          document.getElementById(key) !== null &&
           document
             .getElementById(key)
             .contains(document.getElementById("irtk3g")) === true &&
@@ -291,6 +298,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
       const newMap = new Map(JSON.parse(storedData));
       newMap.forEach((value, key) => {
         if (
+          document.getElementById(key) !== null &&
           document
             .getElementById(key)
             .contains(document.getElementById("ifofl")) === true &&
